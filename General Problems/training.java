@@ -180,8 +180,8 @@ public class training{
 
      public class movezerolast{
         public static void main(String[] args) {
-            int [] arr = {1,2,3,4,5,3,0,1,8}
-            System.out.println(Arrays);
+            int [] arr = {1,2,3,4,5,3,0,1,8};
+            System.out.println();
 
             
         }
