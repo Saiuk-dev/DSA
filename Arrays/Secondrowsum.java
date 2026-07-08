@@ -5,8 +5,8 @@ public class Secondrowsum{
      int sum =0;
 
      //2nd row sum
-     for(int j = 0; j<matrix[0].length; j++){
-        sum += matrix[1][j];
+     for(int j = 0; j<matrix.length; j++){
+        sum += matrix[j][1];
      }
 
      System.out.println(sum);
