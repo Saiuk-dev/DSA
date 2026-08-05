@@ -8,7 +8,7 @@ public class validanagram {
         System.out.println(Anagram(s, t));
     }
 
-    public static boolean Anagram(String s,String t){
+    /*public static boolean Anagram(String s,String t){
         if(s.length() != t.length()){
             return false;
         }
@@ -19,6 +19,20 @@ public class validanagram {
         Arrays.sort(a);
         Arrays.sort(b);
 
-        return Arrays.equals(a,b);
+        return Arrays.equals(a,b); */
+
+        public static boolean Anagram(String s, String t){
+            if(s.length() != t.length()){
+                return false;
+            }
+
+            char[] a = s.toCharArray();
+            char[] b = s.toCharArray();
+
+            Arrays.sort(a);
+            Arrays.sort(b);
+
+            return Arrays.equals(a,b);
+        }
     }
-}
+
