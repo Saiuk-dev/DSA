@@ -6,7 +6,7 @@ public static void main(String[] args){
     Student s2 = new Student();
     Student s3 = new Student(24);
     System.out.println(s1.name);
-    System.out.println(s3.age);
+    System.out.println(s3 .age);
 }
 
  static class Student{
