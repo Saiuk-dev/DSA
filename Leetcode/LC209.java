@@ -7,7 +7,7 @@ public class LC209 {
         int target = 7;
         System.out.println(minSubArrayLen(nums, target));
     }
-//main function
+//Variable sliding window problem 
     public static int minSubArrayLen(int nums[] , int target){
         int left = 0;
         int sum = 0;
