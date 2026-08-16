@@ -4,7 +4,9 @@ import java.util.*;
 public class LC3 {
     public static void main(String[] args){
         String s = "abcabcbb";
-        System.out.println(lengthOfLongestSubstring(String s));
+        int x = lengthOfLongestSubstring(s);
+        System.out.println(x);
+       // System.out.println(lengthOfLongestSubstring(String s));
     }
 
     public static int lengthOfLongestSubstring(String s){
