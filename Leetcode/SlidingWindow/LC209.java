@@ -1,4 +1,4 @@
-package Leetcode;
+package Leetcode.SlidingWindow;
 import java.util.*;
 
 public class LC209 {
